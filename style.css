@@ -1,3 +1,13 @@
 .header {
     background: orange;
 }
+
+.header h1 {
+    display: flex;
+    margin: 0px;
+}
+
+.first-name {
+    margin-right: 8px;
+    color: white;
+}
