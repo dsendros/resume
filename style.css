@@ -3,13 +3,16 @@ body {
     font-family: sans-serif;
 }
 
-.sidebar {
-    flex: 1;
+.table {
+    display:flex;
+    justify-content: center;
     background: lightgrey;
 }
 
 .page {
-    width: 850px;
+    box-shadow: 10px 0px 5px darkgray, -10px 0px 5px darkgray;
+    flex: 0 0 850px;
+    background: white;
 }
 
 .header {
