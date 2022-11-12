@@ -1,3 +1,17 @@
+body {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.sidebar {
+    flex: 1;
+    background: lightgrey;
+}
+
+.page {
+    width: 850px;
+}
+
 .header {
     background: orange;
     display: flex;
