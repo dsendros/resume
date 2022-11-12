@@ -6,10 +6,25 @@
 
 .header h1 {
     display: flex;
-    margin: 0px;
+    align-items: center;
+    margin: 0px 32px;
 }
 
 .first-name {
     margin-right: 8px;
     color: white;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 16px 32px;
+}
+
+.email,
+.phone,
+.location {
+    display: flex;
+    align-items: center;
 }
