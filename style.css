@@ -66,3 +66,31 @@ hr {
     height: 1px;
     border: 0;
 }
+
+.employer {
+    margin: 8px 0px 0px;
+    font-weight: 300;
+}
+
+.title-dates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-dates h3 {
+    margin: 0px;
+    font-weight: 300;
+}
+
+.job-title {
+    color: grey;
+}
+
+.employment ul {
+    margin: 8px 0px;
+    padding-left: 25px;
+}
+
+.employment ul li {
+    margin: 4px 0px 0px;
+}
