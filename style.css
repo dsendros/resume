@@ -1,5 +1,7 @@
 .header {
     background: orange;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header h1 {
