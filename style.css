@@ -45,3 +45,24 @@ body {
     display: flex;
     align-items: center;
 }
+
+.section-header {
+    display: flex;
+    gap: 8px;
+    color: orange;
+    align-items: flex-end;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.section-header .plus {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+hr {
+    margin: 4px 0px;
+    background-color: orange;
+    height: 1px;
+    border: 0;
+}
