@@ -112,3 +112,12 @@ hr {
     font-weight: 300;
     margin: 8px 0px 0px;
 }
+
+.university {
+    font-weight: 300;
+    margin: 8px 0px 0px;
+}
+
+.degree-name-date {
+    display: flex;
+}
