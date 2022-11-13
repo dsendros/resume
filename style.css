@@ -19,12 +19,13 @@ body {
     background: orange;
     display: flex;
     justify-content: space-between;
+    padding: 0px 32px;
 }
 
 .header h1 {
     display: flex;
     align-items: center;
-    margin: 0px 32px;
+    margin: 0px;
 }
 
 .first-name {
@@ -36,7 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    margin: 16px 32px;
+    margin: 16px;
 }
 
 .email,
@@ -44,6 +45,10 @@ body {
 .location {
     display: flex;
     align-items: center;
+}
+
+.content {
+    padding: 0px 32px;
 }
 
 .section-header {
