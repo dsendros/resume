@@ -121,3 +121,19 @@ hr {
 .degree-name-date {
     display: flex;
 }
+
+.skill {
+    display: flex;
+}
+
+.skill-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.skill-details {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
