@@ -19,7 +19,7 @@ body {
     background: orange;
     display: flex;
     justify-content: space-between;
-    padding: 0px 32px;
+    padding: 0px 40px;
 }
 
 .header h1 {
@@ -48,7 +48,7 @@ body {
 }
 
 .content {
-    padding: 0px 32px;
+    padding: 0px 40px;
 }
 
 .section-header {
