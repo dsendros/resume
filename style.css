@@ -99,3 +99,16 @@ hr {
 .employment ul li {
     margin: 4px 0px 0px;
 }
+
+.award-name-date {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    margin: 8px 0px 0px;
+}
+
+.award-name,
+.award-date {
+    font-weight: 300;
+    margin: 8px 0px 0px;
+}
