@@ -18,7 +18,7 @@ body {
 .header {
     background: orange;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 0px 40px;
 }
 
@@ -35,16 +35,25 @@ body {
 
 .header-info {
     display: flex;
-    flex-direction: column;
-    gap: 4px;
-    margin: 16px;
+    gap: 8px;
 }
 
 .email,
 .phone,
-.location {
+.linkedin,
+.github {
     display: flex;
     align-items: center;
+}
+
+.header-info a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.header-info a:hover {
+    color: white;
 }
 
 .content {
