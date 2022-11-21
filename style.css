@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-    background: orange;
+    background: #FB9B2B;
     display: flex;
     flex-direction: column;
     padding: 0px 40px;
@@ -63,7 +63,7 @@ body {
 .section-header {
     display: flex;
     gap: 8px;
-    color: orange;
+    color: #FB9B2B;
     align-items: flex-end;
     font-weight: 300;
     margin-bottom: 0px;
@@ -76,7 +76,7 @@ body {
 
 hr {
     margin: 4px 0px;
-    background-color: orange;
+    background-color: #FB9B2B;
     height: 1px;
     border: 0;
 }
